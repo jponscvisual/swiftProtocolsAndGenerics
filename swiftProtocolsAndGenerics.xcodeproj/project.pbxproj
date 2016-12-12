@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77759EDD1DFEC6770053579B /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 77759EDC1DFEC6770053579B /* .travis.yml */; };
 		77DD1EC41DEC421400B629B0 /* swiftProtocolsAndGenerics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DD1EBA1DEC421400B629B0 /* swiftProtocolsAndGenerics.framework */; };
 		77DD1EC91DEC421400B629B0 /* swiftProtocolsAndGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DD1EC81DEC421400B629B0 /* swiftProtocolsAndGenericsTests.swift */; };
 		77DD1ECB1DEC421400B629B0 /* swiftProtocolsAndGenerics.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DD1EBD1DEC421400B629B0 /* swiftProtocolsAndGenerics.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77759EDC1DFEC6770053579B /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		77DD1EBA1DEC421400B629B0 /* swiftProtocolsAndGenerics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swiftProtocolsAndGenerics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DD1EBD1DEC421400B629B0 /* swiftProtocolsAndGenerics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftProtocolsAndGenerics.h; sourceTree = "<group>"; };
 		77DD1EBE1DEC421400B629B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		77DD1EB01DEC421400B629B0 = {
 			isa = PBXGroup;
 			children = (
+				77759EDC1DFEC6770053579B /* .travis.yml */,
 				77DD1EBC1DEC421400B629B0 /* swiftProtocolsAndGenerics */,
 				77DD1EC71DEC421400B629B0 /* swiftProtocolsAndGenericsTests */,
 				77DD1EBB1DEC421400B629B0 /* Products */,
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77759EDD1DFEC6770053579B /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +418,7 @@
 				77DD1ED01DEC421400B629B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77DD1ED11DEC421400B629B0 /* Build configuration list for PBXNativeTarget "swiftProtocolsAndGenericsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				77DD1ED31DEC421400B629B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
