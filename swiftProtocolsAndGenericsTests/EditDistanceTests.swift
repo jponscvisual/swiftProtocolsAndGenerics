@@ -37,9 +37,7 @@ class EditDistanceTests: XCTestCase {
         //"p", la "c" por la segunda "p" y la "k" por la tercera "p"
         XCTAssertEqual(EditDistance.distance(x: str1, y: str2), 3)
     }
-    func testPerformanceExample2() {
 
-    }
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
